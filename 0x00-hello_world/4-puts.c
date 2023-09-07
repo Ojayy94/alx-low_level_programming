@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
-  * using char function
-  *
-  * Return: always 0 (Successs)
-  */
-  
-int main(void)
+ * Main - Entry point
+ *
+ * Description: Printing with puts function puts ()
+ *
+ * Return: Always 0 (Successs)
+ */
+
+int main(void);
+
 {
-	char my_str[] = ""Programming is like building a multilingual puzzle";
+	puts("\"Programming is like building a multilingual puzzle");
 
-	puts(my_str);
-
-	return 0;
-
+	return (0);
 }
