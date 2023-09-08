@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description: Printing with puts function puts ()
  *
@@ -11,6 +11,5 @@
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
 }
