@@ -2,7 +2,7 @@
 
 /**
 * _puts2 - to print a string and a new line
-* @str: Use case
+* @s: Use case
 * Return: Success
 */
 
