@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_puts2 - to print a string and a new line
+* puts2 - to print a string and a new line
 * @str: Use case
 * Return: Success
 */
