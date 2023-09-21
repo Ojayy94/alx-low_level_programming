@@ -9,7 +9,7 @@
 char *cap_string(char *s)
 {
 	int a, c;
-	char b[] = "' ',;.!?(){}\n\t";
+	char b[] = "' ',;.!?(){}\n\t\" ";
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
@@ -29,7 +29,6 @@ char *cap_string(char *s)
 			if (s[a] >= 'a' && s[a] <= 'z')
 			{
 				s[a] = s[a] - 32;
-				continue;
 			}
 		}
 		}
