@@ -16,13 +16,13 @@ char *leet(char *s)
 
 	for (y = 0; s[y] != '\0'; y++)
 	{
-		 for (z = 0; z < 10; z++)
-		 {
-			 if (s[y] == s1[z])
-			 {
-				 s[y] = s2[z];
-			 }
-		 }
+		for (z = 0; z < 10; z++)
+		{
+			if (s[y] == s1[z])
+			{
+				s[y] = s2[z];
+			}
+		}
 	}
 	return (s);
 }
