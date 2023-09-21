@@ -3,7 +3,7 @@
 /**
  * leet - To encode a string
  * @s: String to encode
- * Return: Success encoding
+ * Return: Success encoding s
  */
 
 char *leet(char *s)
