@@ -10,13 +10,14 @@
 
 void print_diagsums(int *a, int size)
 {
-	int add1, add2, add;
+	int add, add1 = 0, add2 = 0;
 
 	for (add = 0; add < size; add++)
 	{
 		add1 += a[add];
 		a += size;
 	}
+
 	a -= size;
 
 	for (add = 0; add < size; add++)
