@@ -2,8 +2,8 @@
 
 /**
  * div - To identify prime numbers ina set values
- * @y: value1
- * @z: value2
+ * @a: value1
+ * @b: value2
  * Return: Divisible values
  */
 
@@ -13,7 +13,7 @@ int div(int a, int b)
 		return (1);
 	if (a % b == 0)
 		return (0);
-	else 
+	else
 		return (div(a, b + 1));
 }
 
