@@ -7,7 +7,7 @@
  * Return: Square root
  */
 
-int upperroot (int a, int b)
+int upperroot(int a, int b)
 {
 	if (b * b > a)
 		return (-1);
