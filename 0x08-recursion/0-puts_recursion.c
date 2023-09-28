@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - To print a string
- * @s: Print string 
+ * @s: Print string
  * Return: String
  */
 
