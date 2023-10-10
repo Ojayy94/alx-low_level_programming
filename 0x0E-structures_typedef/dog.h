@@ -3,6 +3,7 @@
 
 /**
  * struct dog - Structure definition
+ * Description: Creating a structure and typedef function
  * @name: name of dog
  * @age: Dog age
  * @owner: dog owner
@@ -15,13 +16,17 @@ struct dog
 	char *owner;
 };
 
-/**
- * dog_t - Typedef dog
- */
+#endif
 
+#ifndef PROTOTYPE
+#define PROTOTYPE
+
+/**
+ * dog_t - Typedef struct dog
+ * Description: A typedef function
+ */
 typedef struct dog dog_t;
 
-int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
