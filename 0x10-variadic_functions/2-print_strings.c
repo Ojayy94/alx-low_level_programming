@@ -21,6 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (string == NULL)
 			printf("%s", "(null)");
+
 		else
 			printf("%s", string);
 
