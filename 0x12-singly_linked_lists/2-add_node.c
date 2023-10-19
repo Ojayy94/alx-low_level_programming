@@ -10,7 +10,7 @@
 
 list_t *add_node(list_t **head, const char *str)
 {
-	int adds;
+	int adds = 0;
 	char *copy;
 	list_t *new;
 
@@ -27,8 +27,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	while (adds == 0 && str[adds])
-		adds++;
+	for (adds = 0; str[adds]; adds++)
 
 	new->str = copy;
 	new->len = adds;
