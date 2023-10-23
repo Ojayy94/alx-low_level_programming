@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * free_listint - Program that frees a list
@@ -9,9 +9,9 @@
 void free_listint(listint_t *head)
 {
 	if (head == NULL)
-		return;
-
-	free_listint(head->next);
-	free(head);
-	return (free);
+	{
+		free_listint(head->next);
+		free(head);
+	}
+	return;
 }
