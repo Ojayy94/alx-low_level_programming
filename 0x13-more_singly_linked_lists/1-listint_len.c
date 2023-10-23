@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_len - function that prints all elements of list
+ * listint_len - function that returns all elements of list
  * @h: const h
  * Return: nodes
  */
