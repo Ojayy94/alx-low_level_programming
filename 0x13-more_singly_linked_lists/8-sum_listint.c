@@ -6,7 +6,7 @@
  * Return: Sum
  */
 
-int sum_listint(listint_t *head);
+int sum_listint(listint_t *head)
 {
 	int add = 0;
 
