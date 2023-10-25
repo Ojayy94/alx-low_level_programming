@@ -44,7 +44,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 	step = new;
 
-	for (index = 0; index < old_size && index < new_size; index++)
+	for (a = 0; a < old_size && a < new_size; a++)
 		step[a] = *ptr_copy++;
 
 	free(ptr);
