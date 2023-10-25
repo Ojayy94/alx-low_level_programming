@@ -3,7 +3,7 @@
 /**
  * _realloc - function to reallocate using malloc
  * @ptr: function pointer
- * @old-size: old size
+ * @old_size: old size
  * @new_size: New size
  * Return: All function call
  */
