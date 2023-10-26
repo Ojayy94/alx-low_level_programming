@@ -12,7 +12,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int num = 0;
 	unsigned int i;
 
-	size_t len = strlen(b);
+	len = strlen(b);
 
 	if (b == NULL)
 		return (0);
