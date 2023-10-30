@@ -8,7 +8,8 @@
  */
 int main(int argc, char **argv)
 {
-	int fdfrom, fdto, checkr, checkw;
+	int fdfrom, fdto;
+	ssize_t checkr, checkw;
 	char buff[1024];
 
 	if (argc != 3)
