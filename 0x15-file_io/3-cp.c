@@ -9,7 +9,7 @@
 
 int main(int argc, char **argv)
 {
-	int fdfrom, fdto, checkr, checkw, checkc1, checkc2;
+	int fdfrom, fdto, checkr, checkw;
 	char buff[1024];
 
 	if (argc != 3)
@@ -41,11 +41,9 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	checkc1 = close(fdfrom);
-	if (checkc1 == -1)
+	if (close(fdfrom) == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdfrom), exit(100);
-	checkc2 = close(fdto);
-	if (checkc2 == -1)
+	if (close(fdto) == -1)
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdto), exit(100);
 
 	return (0);
