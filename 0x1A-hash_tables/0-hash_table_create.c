@@ -8,7 +8,7 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	unsigned long int i;
+	unsigned long int i = 0;
 	hash_table_t *ht = NULL;
 	hash_node_t **a = NULL;
 
@@ -20,7 +20,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (a == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; ++i)
+	for (; i < size; ++i)
 		a[i] = NULL;
 
 	ht->size = size;
