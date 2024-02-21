@@ -25,8 +25,8 @@ def island_perimeter(grid):
         for land in range(width):
             if grid[water][land] == 1:
                 size += 1
-                if (land > 0 and grid[water][land - 1] == 1):
-                    fill += 1
                 if (water > 0 and grid[water - 1][land] == 1):
+                    fill += 1
+                if (land > 0 and grid[water][land - 1] == 1):
                     fill += 1
     return (size * 4) - (fill * 2)
