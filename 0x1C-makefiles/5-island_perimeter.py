@@ -17,7 +17,7 @@ def island_perimeter(grid):
                that isn’t connected to the water around the island).
     """
     width = len(grid[0])
-    height = len(grid[0])
+    height = len(grid)
     size = 0
     fill = 0
 
