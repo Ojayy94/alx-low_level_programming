@@ -29,4 +29,4 @@ def island_perimeter(grid):
                     fill += 1
                 if (water > 0 and grid[water - 1][land] == 1):
                     fill += 1
-    return (size * 2) - (fill * 1)
+    return (size * 4) - (fill * 2)
